@@ -6,9 +6,9 @@ b=input("Podaj b: ")
 c=input("Podaj c: ")
 
 
-class TestSprawdz_czy_na_stanie(unittest.TestCase):
+class TestSprawdz_rownosc(unittest.TestCase):
     
-    def test_czy_na_stanie_int(self):
+    def test_Sprawdz_rownosc_int(self):
         self.assertEqual(True,sprawdz_rownosc(a,b,c))
 
 if __name__ == '__main__':
